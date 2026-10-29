@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="306.0" style="-fx-background-color: #F4F6F8;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KalkulatorBMIController">
+   <children>
+      <VBox layoutX="63.0" layoutY="11.0" prefHeight="378.0" prefWidth="226.0" spacing="15.0" style="-fx-background-color: white; -fx-background-radius: 12; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 4);" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <padding>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" prefHeight="32.0" prefWidth="241.0" text="KALKULATOR BMI" textFill="#2c3e50">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label text="Masukkan Berat Badan: (kg)">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="beratField" prefHeight="35.0" prefWidth="217.0" promptText="Contoh: 60" style="-fx-background-radius: 8; -fx-border-radius: 8; -fx-border-color: #DCDFE6; -fx-padding: 8;" />
+            <Label text="Masukkan Tinggi Badan: (cm)">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tinggiField" prefHeight="35.0" prefWidth="217.0" promptText="Contoh: 170" style="-fx-background-radius: 8; -fx-border-radius: 8; -fx-border-color: #DCDFE6; -fx-padding: 8;" />
+            <Button mnemonicParsing="false" onAction="#hitung" prefHeight="36.0" prefWidth="215.0" style="-fx-background-color: #3B82F6; -fx-background-radius: 8; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 14px; -fx-cursor: hand;" text="Hitung BMI" />
+            <Label fx:id="hasillabel" alignment="CENTER" prefHeight="50.0" prefWidth="282.0" style="-fx-background-color: white; -fx-background-radius: 8; -fx-padding: 10;" text="Hasil BMI" textFill="#1e40af">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
