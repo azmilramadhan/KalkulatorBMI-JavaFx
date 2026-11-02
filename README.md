@@ -60,6 +60,26 @@ src/
  │    └── resources/
  │         └── KalkulatorBMI.fxml                 # Desain antarmuka (XML)
  └── pom.xml
+```
+## Cara Menjalankan Aplikasi
+Prasyarat
+-JDK 17 atau versi lebih baru
+-Apache Maven
+-NetBeans IDE (disarankan versi 12+)
 
- 
+Langkah Eksekusi
+1. Clone repository:
+
+git clone https://github.com/azmilramadhan/KalkulatorBMI-JavaFx.git
+
+2. Buka Proyek di NetBeans:
+- Buka NetBeans IDE.
+- Pilih File > Open Project...
+- Arahkan dan buka folder KalkulatorBMI.
+
+3. Build & Run:
+- Klik kanan pada proyek di panel Projects.
+- Pilih Clean and Build.
+- Klik kanan pada file Main.java di dalam package main, lalu pilih Run File (atau jalankan via F6).
+
 Proyek ini dibuat untuk tujuan pembelajaran Pemrograman Lanjut / Object-Oriented Programming (OOP) dan GUI
